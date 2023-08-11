@@ -6,6 +6,7 @@ import { client } from '../../client';
 import './Footer.scss';
 
 const Footer = () => {
+  // new changes
 
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
